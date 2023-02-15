@@ -1,17 +1,11 @@
-# Base on offical NGINX Alpine image
-FROM nginx:alpine
+FROM nginx:1.20.2
 
-# Remove any existing config files
-RUN rm /etc/nginx/conf.d/*
+COPY conf/nginx.conf /etc/nginx/
+COPY conf/default.conf /etc/nginx/conf.d/
+COPY conf/upstream.conf /etc/nginx/conf.d/
 
-# Copy config files
-# *.conf files in conf.d/ dir get included in main config
-COPY ./default.conf /etc/nginx/conf.d/
-COPY ./nginx.conf /etc/nginx/
-COPY ./upstream.conf /etc/nginx/conf.d/
+RUN usermod -u 1000 www-data
 
-# Expose the listening port
+CMD ["nginx"]
+
 EXPOSE 80 443
-
-# Launch NGINX
-CMD [ "nginx", "-g", "daemon off;" ]
