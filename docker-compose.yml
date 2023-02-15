@@ -5,8 +5,6 @@ services:
     links:
       - db
       - memcached
-    networks:
-      - bitrix
     restart: always
   db:
       build: ./${DB_SERVER_TYPE}
@@ -32,8 +30,6 @@ services:
     image: memcached:1.6.12-alpine
     ports:
       - '${INTERFACE}:11211:11211'
-    networks:
-      - bitrix
     restart: always
 #  adminer:
 #      image: dockette/adminer:full
@@ -45,31 +41,3 @@ services:
 #        UPLOAD: 1024M # upload_max_filesize, post_max_size
 #      networks:
 #        - bitrix
-  source:
-      image: alpine:latest
-      volumes:
-        - ./logs/${WEB_SERVER_TYPE}:/var/log/${WEB_SERVER_TYPE}
-        - ./logs/php:/var/log/php
-        - ./logs/db:/var/log/mysql
-        - ./logs/memcached:/var/log/memcached
-        - db:/var/lib/mysql
-        - cache:/var/lib/memcached
-        - ./www/html:/var/www/html
-        - ${SITE_PATH}:/var/www/bitrix
-        - /etc/localtime:/etc/localtime/:ro
-      networks:
-        - bitrix
-
-volumes:
-    db:
-      driver: local
-    cache:
-      driver: local
-
-networks:
-    bitrix:
-      driver: bridge
-      ipam:
-        driver: default
-        config:
-          - subnet: 10.100.0.0/24
