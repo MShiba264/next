@@ -1,23 +1,23 @@
 version: '3'
 services:
-#  php:
-#    build: ./${PHP_VERSION}
-#    links:
-#      - db
-#      - memcached
-#    restart: always
-#  db:
-#      build: ./${DB_SERVER_TYPE}
-#      #        platform: linux/amd64
-#      ports:
-#        - '${INTERFACE}:3306:3306'
-#      environment:
-#        MYSQL_DATABASE: ${MYSQL_DATABASE}
-#        MYSQL_USER: ${MYSQL_USER}
-#        MYSQL_PASSWORD: ${MYSQL_PASSWORD}
-#        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-#      command: mysqld --sql-mode=""
-#      restart: always
+  php:
+    build: ./${PHP_VERSION}
+    links:
+      - db
+      - memcached
+    restart: always
+  db:
+      build: ./${DB_SERVER_TYPE}
+      #        platform: linux/amd64
+      ports:
+        - '${INTERFACE}:3306:3306'
+      environment:
+        MYSQL_DATABASE: ${MYSQL_DATABASE}
+        MYSQL_USER: ${MYSQL_USER}
+        MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+        MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      command: mysqld --sql-mode=""
+      restart: always
   nextjs:
     build: ./
   nginx:
