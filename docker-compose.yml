@@ -59,3 +59,17 @@ services:
         - /etc/localtime:/etc/localtime/:ro
       networks:
         - bitrix
+
+volumes:
+    db:
+      driver: local
+    cache:
+      driver: local
+
+networks:
+    bitrix:
+      driver: bridge
+      ipam:
+        driver: default
+        config:
+          - subnet: 10.100.0.0/24
