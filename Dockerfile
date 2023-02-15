@@ -12,13 +12,13 @@ RUN npm install --global pm2 pnpm
 COPY ./package*.json ./
 
 # Install dependencies
-RUN npm install --production
+RUN pnpm install
 
 # Copy all files
 COPY ./ ./
 
 # Build app
-RUN pnpm run
+RUN npm run build
 
 # Expose the listening port
 EXPOSE 3000
