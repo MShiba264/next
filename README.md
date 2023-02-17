@@ -105,6 +105,7 @@ npm -i
 pnpm dev
 ````
 или
-````
+````bash
 npm run dev
 ````
+9. Проверить localhost:3000
