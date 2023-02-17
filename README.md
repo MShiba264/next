@@ -1,38 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
+## Разворачивать на linux (Ubuntu, Alpine)
+Установить себе docker
+````bash
+apt install docker*
+````
+1. ### Клонировать себе репозиторий
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/MShiba264/next.git
+````
+2. ### Папки и файл Битрикс
 ```
+mkdir -p /var/www/bitrix && \
+cd /var/www/bitrix && \
+wget http://www.1c-bitrix.ru/download/scripts/bitrixsetup.php && \
+cd /var/www/ && \
+cd /var/ && chmod -R 775 www/ && chown -R root:www-data www/ && \
+```
+3. ### Скопировать .env_template в .env
+````bash
+cp -f .env_template .env
+````
+4. ### Запустить docker
+````bash
+docker-compose up -d
+````
+5. ### Установить битрикс с помощью браузера по пути:
+#### hostname/bitrixsetup.php
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Использовать в качестве данных для базы:
+````
+Сервер: db
+Имя пользователя: bitrix
+Пароль: 123
+Имя БД: bitrix
+Тип БД: innodb
+````
+Все параметры задаются в .env_template
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+6. ### После установки скопировать папку rest-hook из репозитория в /var/www/bitrix/
+По ссылке ниже инструкция по настройке REST API в БУС:
+https://dev.1c-bitrix.ru/community/webdev/user/4580532/blog/42206/
+````bash
+mkdir rest-hook /var/www/bitrix/
+````
+По умолчанию в БУС нет нормального интерфейса для взаимодействия с REST API
+Для его активации добавить в urlrewrite.php
+````bash
+99 => 
+  array (
+    'CONDITION' => '#^/rest-hook/#',
+    'RULE' => '',
+    'ID' => 'bitrix:rest.hook',
+    'PATH' => '/rest-hook/index.php',
+    'SORT' => 100,
+  ),
+````
+После вышеперечисленных манипуляций по адресу /rest-hook/ap/0/ будет доступна форма создания входящего вебхука.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+7. Создать новый вебхук, выставить необходимые сущности битрикса, доступные по REST API.
+   ![rest](rest-hook.png)
+8. В pages/index.js можно посмотреть пример Get-запроса к элементу инфоблока (по умолчанию закомментировано для проверки работспособности развёртки).
+#### getServerSideProps
+````
+const res = await fetch('https://bitrixschool/rest/1/elq1at4m5pxmslt6/iblock.element.get.json?iblockId=44&elementId=452&select[0]=ID&select[1]=NAME&select[2]=MORE_PHOTO', {
+      method: 'GET',
+               agent
+     }
+````
