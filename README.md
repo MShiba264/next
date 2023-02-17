@@ -66,3 +66,45 @@ const res = await fetch('https://bitrixschool/rest/1/elq1at4m5pxmslt6/iblock.ele
                agent
      }
 ````
+
+## При желании протестиовать на локальной машине можно:
+1. Установить Битрикс
+2. Перейти к пункту 6, чтобы настроить rest-hook
+3. Установить nodejs на локальный компьютер
+для linux
+````bash
+apt install nodejs*
+````
+для macOS
+````bash
+brew install nodejs*
+````
+P.S. для более быстрой работы с next-js вместо npm (npx) можно испоьзовать pnpm
+````bash
+npm install -g pnpm
+````
+4. Установить себе последнюю версию next-приложения
+````bash
+npx create-next-app@latest
+````
+````bash
+pnpm create next-app
+````
+5. Изменить pages/index.js на версию из репозитория.
+6. Настроить index.js, используя данные из локального Битрикса
+7. Установить зависимости
+````bash
+pnpm install
+````
+или
+````bash
+npm -i
+````
+8. Запустить nextjs
+````bash
+pnpm dev
+````
+или
+````
+npm run dev
+````
