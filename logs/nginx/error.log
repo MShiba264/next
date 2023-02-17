@@ -68,3 +68,1297 @@
 2023/02/15 18:06:33 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/backend.conf:30
 2023/02/15 18:06:40 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/backend.conf:30
 2023/02/15 18:06:54 [emerg] 1#1: invalid URL prefix in /etc/nginx/conf.d/backend.conf:30
+2023/02/15 22:12:23 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:24 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:25 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:26 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:28 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:30 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:34 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:41 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:12:54 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:13:20 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:14:12 [emerg] 1#1: "proxy_cache_path" directive is not allowed here in /etc/nginx/nginx.conf:1
+2023/02/15 22:15:25 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:27 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:28 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:35 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:42 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:45 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:50 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:15:58 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:16:12 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:16:39 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:17:31 [emerg] 1#1: host not found in upstream "nextjs:3000" in /etc/nginx/conf.d/default.conf:4
+2023/02/15 22:18:58 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:18:58 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:18:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:18:58 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:18:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:18:59 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:18:59 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:18:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:18:59 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:18:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:18:59 [notice] 29#29: start worker processes
+2023/02/15 22:18:59 [notice] 29#29: start worker process 30
+2023/02/15 22:18:59 [notice] 29#29: start worker process 31
+2023/02/15 22:19:00 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:00 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:00 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:00 [notice] 30#30: start worker processes
+2023/02/15 22:19:00 [notice] 30#30: start worker process 31
+2023/02/15 22:19:00 [notice] 30#30: start worker process 32
+2023/02/15 22:19:01 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:01 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:01 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:01 [notice] 31#31: start worker processes
+2023/02/15 22:19:01 [notice] 31#31: start worker process 32
+2023/02/15 22:19:03 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:03 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:03 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:03 [notice] 30#30: start worker processes
+2023/02/15 22:19:03 [notice] 30#30: start worker process 31
+2023/02/15 22:19:03 [notice] 30#30: start worker process 32
+2023/02/15 22:19:03 [notice] 30#30: start cache manager process 33
+2023/02/15 22:19:05 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:05 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:05 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:05 [notice] 31#31: start worker processes
+2023/02/15 22:19:05 [notice] 31#31: start worker process 32
+2023/02/15 22:19:05 [notice] 31#31: start worker process 33
+2023/02/15 22:19:09 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:09 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:09 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:09 [notice] 30#30: start worker processes
+2023/02/15 22:19:09 [notice] 30#30: start worker process 31
+2023/02/15 22:19:16 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:16 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:16 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:16 [notice] 30#30: start worker processes
+2023/02/15 22:19:16 [notice] 30#30: start worker process 31
+2023/02/15 22:19:29 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:29 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:29 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:29 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:29 [notice] 30#30: start worker processes
+2023/02/15 22:19:29 [notice] 30#30: start worker process 31
+2023/02/15 22:19:29 [notice] 30#30: start worker process 32
+2023/02/15 22:19:56 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:19:56 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:19:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:19:56 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:19:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:19:56 [notice] 30#30: start worker processes
+2023/02/15 22:19:56 [notice] 30#30: start worker process 31
+2023/02/15 22:20:48 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:20:48 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:20:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:20:48 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:20:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:20:48 [notice] 30#30: start worker processes
+2023/02/15 22:20:48 [notice] 30#30: start worker process 31
+2023/02/15 22:21:54 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:21:54 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:21:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:21:54 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:21:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:21:55 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:21:55 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:21:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:21:55 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:21:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:21:56 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:21:56 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:21:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:21:56 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:21:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:21:56 [notice] 24#24: start worker processes
+2023/02/15 22:21:56 [notice] 24#24: start worker process 25
+2023/02/15 22:21:56 [notice] 24#24: start worker process 26
+2023/02/15 22:21:57 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:21:57 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:21:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:21:57 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:21:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:21:58 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:21:58 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:21:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:21:58 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:21:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:21:58 [notice] 25#25: start worker processes
+2023/02/15 22:21:58 [notice] 25#25: start worker process 26
+2023/02/15 22:21:58 [notice] 25#25: start worker process 27
+2023/02/15 22:22:01 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:22:01 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:22:01 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:22:01 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:22:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:22:01 [notice] 24#24: start worker processes
+2023/02/15 22:22:01 [notice] 24#24: start worker process 25
+2023/02/15 22:22:01 [notice] 24#24: start worker process 26
+2023/02/15 22:22:05 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:22:05 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:22:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:22:05 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:22:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:22:05 [notice] 24#24: start worker processes
+2023/02/15 22:22:05 [notice] 24#24: start worker process 25
+2023/02/15 22:22:12 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:22:12 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:22:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:22:12 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:22:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:22:12 [notice] 24#24: start worker processes
+2023/02/15 22:22:12 [notice] 24#24: start worker process 25
+2023/02/15 22:22:12 [notice] 24#24: start worker process 26
+2023/02/15 22:22:25 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:22:25 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:22:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:22:25 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:22:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:22:25 [notice] 24#24: start worker processes
+2023/02/15 22:22:25 [notice] 24#24: start worker process 25
+2023/02/15 22:22:51 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:22:51 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:22:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:22:51 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:22:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:22:51 [notice] 24#24: start worker processes
+2023/02/15 22:22:51 [notice] 24#24: start worker process 25
+2023/02/15 22:24:20 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:24:20 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:24:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:24:20 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:24:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:24:20 [notice] 1#1: start worker processes
+2023/02/15 22:24:20 [notice] 1#1: start worker process 31
+2023/02/15 22:24:20 [notice] 1#1: start worker process 32
+2023/02/15 22:24:20 [notice] 1#1: start cache manager process 33
+2023/02/15 22:24:20 [notice] 1#1: start cache loader process 34
+2023/02/15 22:25:20 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/15 22:25:20 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/15 22:25:20 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/15 22:25:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:27:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/15 22:27:02 [notice] 31#31: gracefully shutting down
+2023/02/15 22:27:02 [notice] 31#31: exiting
+2023/02/15 22:27:02 [notice] 31#31: exit
+2023/02/15 22:27:02 [notice] 33#33: exiting
+2023/02/15 22:27:02 [notice] 32#32: gracefully shutting down
+2023/02/15 22:27:02 [notice] 32#32: exiting
+2023/02/15 22:27:02 [notice] 32#32: exit
+2023/02/15 22:27:02 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/15 22:27:02 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/15 22:27:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:27:02 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/15 22:27:02 [notice] 1#1: worker process 32 exited with code 0
+2023/02/15 22:27:02 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:27:02 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/15 22:27:02 [notice] 1#1: worker process 31 exited with code 0
+2023/02/15 22:27:02 [notice] 1#1: exit
+2023/02/15 22:27:54 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:27:54 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:27:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:27:54 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:27:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:27:54 [notice] 1#1: start worker processes
+2023/02/15 22:27:54 [notice] 1#1: start worker process 30
+2023/02/15 22:27:54 [notice] 1#1: start worker process 31
+2023/02/15 22:27:54 [notice] 1#1: start cache manager process 32
+2023/02/15 22:27:54 [notice] 1#1: start cache loader process 33
+2023/02/15 22:28:13 [error] 31#31: *10 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 114.122.134.224, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/15 22:28:54 [notice] 33#33: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/15 22:28:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/15 22:28:54 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/15 22:28:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:30:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/15 22:30:24 [notice] 31#31: gracefully shutting down
+2023/02/15 22:30:24 [notice] 32#32: exiting
+2023/02/15 22:30:24 [notice] 31#31: exiting
+2023/02/15 22:30:24 [notice] 31#31: exit
+2023/02/15 22:30:24 [notice] 30#30: gracefully shutting down
+2023/02/15 22:30:24 [notice] 30#30: exiting
+2023/02/15 22:30:24 [notice] 30#30: exit
+2023/02/15 22:30:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/15 22:30:24 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/15 22:30:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:30:24 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/15 22:30:24 [notice] 1#1: worker process 31 exited with code 0
+2023/02/15 22:30:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:30:24 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/15 22:30:24 [notice] 1#1: worker process 30 exited with code 0
+2023/02/15 22:30:24 [notice] 1#1: exit
+2023/02/15 22:31:22 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:31:22 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:31:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:31:22 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:31:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:31:22 [notice] 1#1: start worker processes
+2023/02/15 22:31:22 [notice] 1#1: start worker process 31
+2023/02/15 22:31:22 [notice] 1#1: start worker process 32
+2023/02/15 22:31:22 [notice] 1#1: start cache manager process 33
+2023/02/15 22:31:22 [notice] 1#1: start cache loader process 34
+2023/02/15 22:31:37 [error] 32#32: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 114.122.134.224, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/15 22:31:53 [error] 32#32: *11 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 114.122.134.224, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/15 22:32:22 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/15 22:32:22 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/15 22:32:22 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/15 22:32:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:32:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/15 22:32:24 [notice] 32#32: gracefully shutting down
+2023/02/15 22:32:24 [notice] 33#33: exiting
+2023/02/15 22:32:24 [notice] 32#32: exiting
+2023/02/15 22:32:24 [notice] 32#32: exit
+2023/02/15 22:32:24 [notice] 31#31: gracefully shutting down
+2023/02/15 22:32:24 [notice] 31#31: exiting
+2023/02/15 22:32:24 [notice] 31#31: exit
+2023/02/15 22:32:25 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/15 22:32:25 [notice] 1#1: worker process 32 exited with code 0
+2023/02/15 22:32:25 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/15 22:32:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:32:25 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/15 22:32:25 [notice] 1#1: worker process 31 exited with code 0
+2023/02/15 22:32:25 [notice] 1#1: exit
+2023/02/15 22:33:17 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:33:17 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:33:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:33:17 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:33:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:33:17 [notice] 1#1: start worker processes
+2023/02/15 22:33:17 [notice] 1#1: start worker process 31
+2023/02/15 22:33:17 [notice] 1#1: start worker process 32
+2023/02/15 22:33:17 [notice] 1#1: start cache manager process 33
+2023/02/15 22:33:17 [notice] 1#1: start cache loader process 34
+2023/02/15 22:33:24 [error] 32#32: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 114.122.134.224, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/15 22:34:17 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/15 22:34:17 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/15 22:34:17 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/15 22:34:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:35:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/15 22:35:56 [notice] 33#33: exiting
+2023/02/15 22:35:56 [notice] 31#31: gracefully shutting down
+2023/02/15 22:35:56 [notice] 31#31: exiting
+2023/02/15 22:35:56 [notice] 31#31: exit
+2023/02/15 22:35:56 [notice] 32#32: gracefully shutting down
+2023/02/15 22:35:56 [notice] 32#32: exiting
+2023/02/15 22:35:56 [notice] 32#32: exit
+2023/02/15 22:35:56 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/15 22:35:56 [notice] 1#1: worker process 31 exited with code 0
+2023/02/15 22:35:56 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/15 22:35:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 22:35:56 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/15 22:35:56 [notice] 1#1: worker process 32 exited with code 0
+2023/02/15 22:35:56 [notice] 1#1: exit
+2023/02/15 22:37:32 [notice] 1#1: using the "epoll" event method
+2023/02/15 22:37:32 [notice] 1#1: nginx/1.20.2
+2023/02/15 22:37:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/15 22:37:32 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/15 22:37:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/15 22:37:32 [notice] 1#1: start worker processes
+2023/02/15 22:37:32 [notice] 1#1: start worker process 31
+2023/02/15 22:37:32 [notice] 1#1: start worker process 32
+2023/02/15 22:37:32 [notice] 1#1: start cache manager process 33
+2023/02/15 22:37:32 [notice] 1#1: start cache loader process 34
+2023/02/15 22:37:49 [error] 31#31: *10 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 114.122.134.224, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/15 22:38:32 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/15 22:38:32 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/15 22:38:32 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/15 22:38:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/15 23:50:55 [error] 31#31: *22 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/gate.php (No such file or directory)" while reading response header from upstream, client: 3.80.5.185, server: 74.119.193.224, request: "GET /gate.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224:80"
+2023/02/16 01:26:04 [error] 31#31: *47 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin/scripts/setup.php (No such file or directory)" while reading response header from upstream, client: 109.206.240.201, server: 74.119.193.224, request: "GET /phpMyAdmin/scripts/setup.php HTTP/1.0", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 01:29:05 [error] 31#31: *51 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin/scripts/setup.php (No such file or directory)" while reading response header from upstream, client: 109.206.240.201, server: 74.119.193.224, request: "GET /phpmyadmin/scripts/setup.php HTTP/1.0", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 01:32:00 [error] 31#31: *53 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/pma/scripts/setup.php (No such file or directory)" while reading response header from upstream, client: 109.206.240.201, server: 74.119.193.224, request: "GET /pma/scripts/setup.php HTTP/1.0", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 01:35:10 [error] 31#31: *55 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/myadmin/scripts/setup.php (No such file or directory)" while reading response header from upstream, client: 109.206.240.201, server: 74.119.193.224, request: "GET /myadmin/scripts/setup.php HTTP/1.0", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 01:38:04 [error] 31#31: *57 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/MyAdmin/scripts/setup.php (No such file or directory)" while reading response header from upstream, client: 109.206.240.201, server: 74.119.193.224, request: "GET /MyAdmin/scripts/setup.php HTTP/1.0", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:33 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin5.2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:33 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin-4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:34 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/MyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /MyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:38 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/db/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/db/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:38 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/db/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/db/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:40 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/websql/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/websql/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:40 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:41 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin-3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:42 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmy/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmy/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:42 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/program/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /program/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:43 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2013/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2013/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:43 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2018/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2018/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:44 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/sql/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/sql/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:44 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/PMA/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/PMA/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:44 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin1/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin1/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:45 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/pma/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /pma/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:47 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql-admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql-admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:48 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2021/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2021/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:48 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2022/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2022/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:48 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:49 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-latest-english/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-latest-english/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:50 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/websql/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/websql/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:50 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:51 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin-4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:51 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2020/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2020/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:52 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2013/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2013/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:53 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:53 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/webdb/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/webdb/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:54 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.1.1/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.1.1/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:54 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql-admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql-admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:55 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:55 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/__phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /__phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:56 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/mysqlmanager/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:57 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.1.2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:58 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phppma/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phppma/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:58 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:59 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2018/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2018/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:59 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/dbweb/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/dbweb/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:10:59 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:00 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin5.2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin5.2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:00 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/__phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /__phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:01 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:01 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/program/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /program/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:01 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.1.2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.1.2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:02 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/dbweb/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/dbweb/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:02 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/db/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/db/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:03 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:03 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin-4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin-4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:04 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/dbadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/dbadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:06 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/php-my-admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /php-my-admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:07 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:07 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:08 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.1.3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.1.3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:08 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpmanager/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpmanager/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:09 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpMyAdmin2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:10 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:10 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2016/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2016/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:11 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/dbadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /dbadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:11 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/admin/phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:12 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/dbadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/dbadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:12 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpmyadmin4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpmyadmin4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:13 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/dbweb/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/dbweb/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:14 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/pma/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/pma/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:14 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/_phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /_phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:15 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/php-myadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /php-myadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:15 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:15 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/sql/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/sql/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:16 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:16 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/sqlmanager/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/sqlmanager/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:17 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:17 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:17 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpmyadmin4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpmyadmin4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:18 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/php-my-admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /php-my-admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:18 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/MyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /MyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:19 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/admin/sqladmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /admin/sqladmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:19 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/webadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/webadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:20 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpmyadmin5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpmyadmin5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:20 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin-3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin-3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:20 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin-5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin-5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:21 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:21 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/pMA/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/pMA/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:22 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:22 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.2.0-all-languages/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:22 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql-admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql-admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:23 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:23 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:24 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2015/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2015/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:24 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:25 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:25 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/1phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /1phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:25 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/mysqlmanager/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/mysqlmanager/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:26 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/__phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /__phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:26 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin_/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin_/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:27 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/PMA/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /PMA/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:27 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/database/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /database/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:27 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/db/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /db/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:28 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:28 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.1.3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.1.3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:29 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/pma/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/pma/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:29 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:29 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:30 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:30 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/admin/sysadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /admin/sysadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:31 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpMyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpMyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:31 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2015/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2015/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:32 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.1.0/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.1.0/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:33 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin_/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin_/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:34 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-latest-english/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-latest-english/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:36 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2015/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2015/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:36 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2018/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2018/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:37 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin3/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin3/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:38 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/web/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/web/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:38 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.2.0/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.2.0/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:39 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/pma/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/pma/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:39 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin5/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin5/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:39 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin2021/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin2021/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:40 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/phpMyAdmin2/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/phpMyAdmin2/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:42 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-5.3.0-all-languages/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:43 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyAdmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyAdmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:43 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin_/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin_/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:43 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmyadmin4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmyadmin4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:44 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/administrator/phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /administrator/phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:44 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/admin/phpmyadmin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /admin/phpmyadmin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:45 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/mysql/sqlmanager/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /mysql/sqlmanager/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:45 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/sql/sql-admin/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /sql/sql-admin/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:46 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpmy/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpmy/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:11:47 [error] 31#31: *177 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/phpMyAdmin-4/index.php (No such file or directory)" while reading response header from upstream, client: 120.24.182.131, server: 74.119.193.224, request: "GET /phpMyAdmin-4/index.php?lang=en HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:41:49 [error] 31#31: *317 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:41:51 [error] 31#31: *317 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/etup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /etup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:42:27 [error] 31#31: *317 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:47:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 11:47:26 [notice] 31#31: gracefully shutting down
+2023/02/16 11:47:26 [notice] 32#32: gracefully shutting down
+2023/02/16 11:47:26 [notice] 32#32: exiting
+2023/02/16 11:47:26 [notice] 31#31: exiting
+2023/02/16 11:47:26 [notice] 32#32: exit
+2023/02/16 11:47:26 [notice] 31#31: exit
+2023/02/16 11:47:26 [notice] 33#33: exiting
+2023/02/16 11:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 11:47:26 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 11:47:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 11:47:26 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 11:47:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:47:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 11:47:26 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 11:47:26 [notice] 1#1: exit
+2023/02/16 11:48:37 [notice] 1#1: using the "epoll" event method
+2023/02/16 11:48:37 [notice] 1#1: nginx/1.20.2
+2023/02/16 11:48:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 11:48:37 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 11:48:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 11:48:37 [notice] 1#1: start worker processes
+2023/02/16 11:48:37 [notice] 1#1: start worker process 23
+2023/02/16 11:48:37 [notice] 1#1: start worker process 24
+2023/02/16 11:48:37 [notice] 1#1: start cache manager process 25
+2023/02/16 11:48:37 [notice] 1#1: start cache loader process 26
+2023/02/16 11:48:43 [error] 24#24: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:49:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 11:49:17 [notice] 24#24: gracefully shutting down
+2023/02/16 11:49:17 [notice] 26#26: exiting
+2023/02/16 11:49:17 [notice] 25#25: exiting
+2023/02/16 11:49:17 [notice] 23#23: gracefully shutting down
+2023/02/16 11:49:17 [notice] 23#23: exiting
+2023/02/16 11:49:17 [notice] 23#23: exit
+2023/02/16 11:49:17 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/16 11:49:17 [notice] 1#1: cache loader process 26 exited with code 0
+2023/02/16 11:49:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:49:17 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/16 11:49:17 [notice] 1#1: cache manager process 25 exited with code 0
+2023/02/16 11:49:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:49:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/02/16 11:49:17 [notice] 1#1: worker process 23 exited with code 0
+2023/02/16 11:49:17 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:50:28 [notice] 1#1: using the "epoll" event method
+2023/02/16 11:50:28 [notice] 1#1: nginx/1.20.2
+2023/02/16 11:50:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 11:50:28 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 11:50:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 11:50:28 [notice] 1#1: start worker processes
+2023/02/16 11:50:28 [notice] 1#1: start worker process 31
+2023/02/16 11:50:28 [notice] 1#1: start worker process 32
+2023/02/16 11:50:28 [notice] 1#1: start cache manager process 33
+2023/02/16 11:50:28 [notice] 1#1: start cache loader process 34
+2023/02/16 11:50:56 [error] 31#31: *8 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:51:28 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 11:51:28 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 11:51:28 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/16 11:51:28 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:52:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 11:52:33 [notice] 31#31: gracefully shutting down
+2023/02/16 11:52:33 [notice] 31#31: exiting
+2023/02/16 11:52:33 [notice] 31#31: exit
+2023/02/16 11:52:33 [notice] 32#32: gracefully shutting down
+2023/02/16 11:52:33 [notice] 32#32: exiting
+2023/02/16 11:52:33 [notice] 32#32: exit
+2023/02/16 11:52:33 [notice] 33#33: exiting
+2023/02/16 11:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 11:52:33 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 11:52:33 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 11:52:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:52:33 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 11:52:33 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 11:52:33 [notice] 1#1: exit
+2023/02/16 11:53:38 [notice] 1#1: using the "epoll" event method
+2023/02/16 11:53:38 [notice] 1#1: nginx/1.20.2
+2023/02/16 11:53:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 11:53:38 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 11:53:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 11:53:38 [notice] 1#1: start worker processes
+2023/02/16 11:53:38 [notice] 1#1: start worker process 30
+2023/02/16 11:53:38 [notice] 1#1: start worker process 31
+2023/02/16 11:53:38 [notice] 1#1: start cache manager process 32
+2023/02/16 11:53:38 [notice] 1#1: start cache loader process 33
+2023/02/16 11:53:45 [error] 31#31: *8 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:54:35 [error] 31#31: *8 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/index.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/ HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:54:38 [notice] 33#33: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 11:54:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 11:54:38 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/16 11:54:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:55:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 11:55:18 [notice] 31#31: gracefully shutting down
+2023/02/16 11:55:18 [notice] 31#31: exiting
+2023/02/16 11:55:18 [notice] 31#31: exit
+2023/02/16 11:55:18 [notice] 32#32: exiting
+2023/02/16 11:55:18 [notice] 30#30: gracefully shutting down
+2023/02/16 11:55:18 [notice] 30#30: exiting
+2023/02/16 11:55:18 [notice] 30#30: exit
+2023/02/16 11:55:18 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 11:55:18 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/16 11:55:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:55:18 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/16 11:55:18 [notice] 1#1: worker process 30 exited with code 0
+2023/02/16 11:55:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:55:18 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 11:55:18 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 11:55:18 [notice] 1#1: exit
+2023/02/16 11:55:34 [notice] 1#1: using the "epoll" event method
+2023/02/16 11:55:34 [notice] 1#1: nginx/1.20.2
+2023/02/16 11:55:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 11:55:34 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 11:55:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 11:55:34 [notice] 1#1: start worker processes
+2023/02/16 11:55:34 [notice] 1#1: start worker process 24
+2023/02/16 11:55:34 [notice] 1#1: start worker process 25
+2023/02/16 11:55:34 [notice] 1#1: start cache manager process 26
+2023/02/16 11:55:34 [notice] 1#1: start cache loader process 27
+2023/02/16 11:55:37 [error] 25#25: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/index.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/ HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:55:43 [error] 25#25: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:56:34 [notice] 27#27: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 11:56:34 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/16 11:56:34 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/16 11:56:34 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:56:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 11:56:54 [notice] 26#26: exiting
+2023/02/16 11:56:54 [notice] 24#24: gracefully shutting down
+2023/02/16 11:56:54 [notice] 24#24: exiting
+2023/02/16 11:56:54 [notice] 24#24: exit
+2023/02/16 11:56:54 [notice] 25#25: gracefully shutting down
+2023/02/16 11:56:54 [notice] 25#25: exiting
+2023/02/16 11:56:54 [notice] 25#25: exit
+2023/02/16 11:56:54 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/16 11:56:54 [notice] 1#1: worker process 24 exited with code 0
+2023/02/16 11:56:54 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/16 11:56:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:56:54 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/16 11:56:54 [notice] 1#1: worker process 25 exited with code 0
+2023/02/16 11:56:54 [notice] 1#1: exit
+2023/02/16 11:56:56 [notice] 1#1: using the "epoll" event method
+2023/02/16 11:56:56 [notice] 1#1: nginx/1.20.2
+2023/02/16 11:56:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 11:56:56 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 11:56:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 11:56:56 [notice] 1#1: start worker processes
+2023/02/16 11:56:56 [notice] 1#1: start worker process 31
+2023/02/16 11:56:56 [notice] 1#1: start worker process 32
+2023/02/16 11:56:56 [notice] 1#1: start cache manager process 33
+2023/02/16 11:56:56 [notice] 1#1: start cache loader process 34
+2023/02/16 11:57:04 [error] 31#31: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 11:57:56 [notice] 34#34: http file cache: /var/cache/nginx 0.000M, bsize: 4096
+2023/02/16 11:57:56 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 11:57:56 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/16 11:57:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:58:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 11:58:06 [notice] 33#33: exiting
+2023/02/16 11:58:06 [notice] 32#32: gracefully shutting down
+2023/02/16 11:58:06 [notice] 32#32: exiting
+2023/02/16 11:58:06 [notice] 32#32: exit
+2023/02/16 11:58:06 [notice] 31#31: gracefully shutting down
+2023/02/16 11:58:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 11:58:06 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 11:58:06 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 11:58:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 11:58:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 11:58:11 [notice] 31#31: exiting
+2023/02/16 11:58:11 [notice] 31#31: exit
+2023/02/16 11:58:11 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 11:58:11 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 11:58:11 [notice] 1#1: exit
+2023/02/16 11:59:22 [notice] 1#1: using the "epoll" event method
+2023/02/16 11:59:22 [notice] 1#1: nginx/1.20.2
+2023/02/16 11:59:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 11:59:22 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 11:59:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 11:59:22 [notice] 1#1: start worker processes
+2023/02/16 11:59:22 [notice] 1#1: start worker process 31
+2023/02/16 11:59:22 [notice] 1#1: start worker process 32
+2023/02/16 11:59:22 [notice] 1#1: start cache manager process 33
+2023/02/16 11:59:22 [notice] 1#1: start cache loader process 34
+2023/02/16 11:59:45 [error] 31#31: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:00:13 [error] 31#31: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:00:22 [notice] 34#34: http file cache: /var/cache/nginx 0.000M, bsize: 4096
+2023/02/16 12:00:22 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 12:00:22 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/16 12:00:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:08:00 [error] 31#31: *7 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:09:33 [error] 31#31: *10 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/index.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/ HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:12:29 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 12:12:29 [notice] 32#32: gracefully shutting down
+2023/02/16 12:12:29 [notice] 31#31: gracefully shutting down
+2023/02/16 12:12:29 [notice] 32#32: exiting
+2023/02/16 12:12:29 [notice] 31#31: exiting
+2023/02/16 12:12:29 [notice] 31#31: exit
+2023/02/16 12:12:29 [notice] 32#32: exit
+2023/02/16 12:12:29 [notice] 33#33: exiting
+2023/02/16 12:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 12:12:29 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 12:12:29 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 12:12:29 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:12:29 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 12:12:29 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 12:12:29 [notice] 1#1: exit
+2023/02/16 12:16:40 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:41 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:42 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:44 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:45 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:47 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:51 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:16:58 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:17:12 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:17:38 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:18:30 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:19:31 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:20:32 [emerg] 1#1: "try_files" directive is not allowed here in /etc/nginx/conf.d/next.conf:48
+2023/02/16 12:22:07 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:08 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:09 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:10 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:12 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:14 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:18 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:25 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:22:38 [emerg] 1#1: unknown directive "bitrixsetup.php" in /etc/nginx/conf.d/next.conf:47
+2023/02/16 12:23:54 [notice] 1#1: using the "epoll" event method
+2023/02/16 12:23:54 [notice] 1#1: nginx/1.20.2
+2023/02/16 12:23:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 12:23:54 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 12:23:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 12:23:54 [notice] 1#1: start worker processes
+2023/02/16 12:23:54 [notice] 1#1: start worker process 32
+2023/02/16 12:23:54 [notice] 1#1: start worker process 33
+2023/02/16 12:23:54 [notice] 1#1: start cache manager process 34
+2023/02/16 12:23:54 [notice] 1#1: start cache loader process 35
+2023/02/16 12:24:54 [notice] 35#35: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 12:24:54 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/02/16 12:24:54 [notice] 1#1: cache loader process 35 exited with code 0
+2023/02/16 12:24:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:25:00 [error] 33#33: *8 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrix/bitrxisetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/bitrxisetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:25:14 [error] 33#33: *8 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: 74.119.193.224, request: "GET /bitrix/bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:25:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 12:25:54 [notice] 34#34: exiting
+2023/02/16 12:25:54 [notice] 33#33: gracefully shutting down
+2023/02/16 12:25:54 [notice] 33#33: exiting
+2023/02/16 12:25:54 [notice] 33#33: exit
+2023/02/16 12:25:54 [notice] 32#32: gracefully shutting down
+2023/02/16 12:25:54 [notice] 32#32: exiting
+2023/02/16 12:25:54 [notice] 32#32: exit
+2023/02/16 12:25:54 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 12:25:54 [notice] 1#1: cache manager process 34 exited with code 0
+2023/02/16 12:25:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:25:54 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 12:25:54 [notice] 1#1: worker process 33 exited with code 0
+2023/02/16 12:25:54 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:25:54 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 12:25:54 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 12:25:54 [notice] 1#1: exit
+2023/02/16 12:26:48 [notice] 1#1: using the "epoll" event method
+2023/02/16 12:26:48 [notice] 1#1: nginx/1.20.2
+2023/02/16 12:26:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 12:26:48 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 12:26:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 12:26:48 [notice] 1#1: start worker processes
+2023/02/16 12:26:48 [notice] 1#1: start worker process 30
+2023/02/16 12:26:48 [notice] 1#1: start worker process 31
+2023/02/16 12:26:48 [notice] 1#1: start cache manager process 32
+2023/02/16 12:26:48 [notice] 1#1: start cache loader process 33
+2023/02/16 12:26:55 [error] 31#31: *1 FastCGI sent in stderr: "Unable to open primary script: /etc/nginx/html/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:27:48 [notice] 33#33: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 12:27:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 12:27:48 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/16 12:27:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:29:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 12:29:12 [notice] 30#30: gracefully shutting down
+2023/02/16 12:29:12 [notice] 30#30: exiting
+2023/02/16 12:29:12 [notice] 30#30: exit
+2023/02/16 12:29:12 [notice] 32#32: exiting
+2023/02/16 12:29:12 [notice] 31#31: gracefully shutting down
+2023/02/16 12:29:12 [notice] 31#31: exiting
+2023/02/16 12:29:12 [notice] 31#31: exit
+2023/02/16 12:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/16 12:29:12 [notice] 1#1: worker process 30 exited with code 0
+2023/02/16 12:29:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 12:29:12 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/16 12:29:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:29:12 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 12:29:12 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 12:29:12 [notice] 1#1: exit
+2023/02/16 12:30:10 [notice] 1#1: using the "epoll" event method
+2023/02/16 12:30:10 [notice] 1#1: nginx/1.20.2
+2023/02/16 12:30:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 12:30:10 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 12:30:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 12:30:10 [notice] 1#1: start worker processes
+2023/02/16 12:30:10 [notice] 1#1: start worker process 31
+2023/02/16 12:30:10 [notice] 1#1: start worker process 32
+2023/02/16 12:30:10 [notice] 1#1: start cache manager process 33
+2023/02/16 12:30:10 [notice] 1#1: start cache loader process 34
+2023/02/16 12:30:27 [error] 32#32: *3 FastCGI sent in stderr: "Unable to open primary script: /var/www/n/next/pages/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:31:10 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 12:31:10 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 12:31:10 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/16 12:31:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:31:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 12:31:26 [notice] 31#31: gracefully shutting down
+2023/02/16 12:31:26 [notice] 33#33: exiting
+2023/02/16 12:31:26 [notice] 31#31: exiting
+2023/02/16 12:31:26 [notice] 31#31: exit
+2023/02/16 12:31:26 [notice] 32#32: gracefully shutting down
+2023/02/16 12:31:26 [notice] 32#32: exiting
+2023/02/16 12:31:26 [notice] 32#32: exit
+2023/02/16 12:31:26 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 12:31:26 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 12:31:26 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:31:26 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 12:31:26 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 12:31:26 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 12:31:26 [notice] 1#1: exit
+2023/02/16 12:32:37 [notice] 1#1: using the "epoll" event method
+2023/02/16 12:32:37 [notice] 1#1: nginx/1.20.2
+2023/02/16 12:32:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 12:32:37 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 12:32:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 12:32:37 [notice] 1#1: start worker processes
+2023/02/16 12:32:37 [notice] 1#1: start worker process 30
+2023/02/16 12:32:37 [notice] 1#1: start worker process 31
+2023/02/16 12:32:37 [notice] 1#1: start cache manager process 32
+2023/02/16 12:32:37 [notice] 1#1: start cache loader process 33
+2023/02/16 12:32:46 [error] 31#31: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:33:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 12:33:35 [notice] 30#30: gracefully shutting down
+2023/02/16 12:33:35 [notice] 33#33: exiting
+2023/02/16 12:33:35 [notice] 30#30: exiting
+2023/02/16 12:33:35 [notice] 30#30: exit
+2023/02/16 12:33:35 [notice] 32#32: exiting
+2023/02/16 12:33:35 [notice] 31#31: gracefully shutting down
+2023/02/16 12:33:35 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 12:33:35 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/16 12:33:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:33:35 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 12:33:35 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/16 12:33:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:33:35 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/16 12:33:35 [notice] 1#1: worker process 30 exited with code 0
+2023/02/16 12:33:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:34:38 [notice] 1#1: using the "epoll" event method
+2023/02/16 12:34:38 [notice] 1#1: nginx/1.20.2
+2023/02/16 12:34:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 12:34:38 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 12:34:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 12:34:38 [notice] 1#1: start worker processes
+2023/02/16 12:34:38 [notice] 1#1: start worker process 31
+2023/02/16 12:34:38 [notice] 1#1: start worker process 32
+2023/02/16 12:34:38 [notice] 1#1: start cache manager process 33
+2023/02/16 12:34:38 [notice] 1#1: start cache loader process 34
+2023/02/16 12:35:02 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "POST /bitrixsetup.php?action=LOAD HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php"
+2023/02/16 12:35:15 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=20401 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD"
+2023/02/16 12:35:29 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=8514 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=20401"
+2023/02/16 12:35:38 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 12:35:38 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 12:35:38 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/16 12:35:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 12:35:42 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=27252 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=8514"
+2023/02/16 12:35:56 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=23618 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=27252"
+2023/02/16 12:36:11 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=23846 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=23618"
+2023/02/16 12:36:26 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=9854 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=23846"
+2023/02/16 12:36:39 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=22656 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=9854"
+2023/02/16 12:36:54 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=2225 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=22656"
+2023/02/16 12:37:06 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=19996 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=2225"
+2023/02/16 12:37:20 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=23752 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=19996"
+2023/02/16 12:37:32 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=14397 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=23752"
+2023/02/16 12:37:47 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=30412 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=14397"
+2023/02/16 12:38:02 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=24516 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=30412"
+2023/02/16 12:38:15 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=11081 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=24516"
+2023/02/16 12:38:28 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=26148 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=11081"
+2023/02/16 12:38:41 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=25591 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=26148"
+2023/02/16 12:38:54 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=6305 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=25591"
+2023/02/16 12:39:09 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=4343 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=6305"
+2023/02/16 12:39:25 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=15477 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=4343"
+2023/02/16 12:39:37 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=11458 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=15477"
+2023/02/16 12:39:50 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=3972 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=11458"
+2023/02/16 12:40:03 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=13070 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=3972"
+2023/02/16 12:40:19 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=5359 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=13070"
+2023/02/16 12:40:35 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=2685 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=5359"
+2023/02/16 12:40:49 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=8973 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=2685"
+2023/02/16 12:41:01 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=974 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=8973"
+2023/02/16 12:41:15 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=30703 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=974"
+2023/02/16 12:41:28 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=14766 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=30703"
+2023/02/16 12:41:39 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=16916 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=14766"
+2023/02/16 12:41:52 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=823 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=16916"
+2023/02/16 12:42:04 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=10238 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=823"
+2023/02/16 12:42:16 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=17860 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=10238"
+2023/02/16 12:42:27 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=21385 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=17860"
+2023/02/16 12:42:40 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=8019 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=21385"
+2023/02/16 12:42:52 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=28506 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=8019"
+2023/02/16 12:43:06 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=13709 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=28506"
+2023/02/16 12:43:17 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=15099 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=13709"
+2023/02/16 12:43:32 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=29367 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=15099"
+2023/02/16 12:43:44 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=11314 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=29367"
+2023/02/16 12:43:56 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=27209 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=11314"
+2023/02/16 12:44:09 [error] 32#32: *7 FastCGI sent in stderr: "PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 847PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996PHP message: PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in /var/www/bitrix/bitrixsetup.php on line 996" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=2 HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrixsetup.php?action=LOAD&edition=0&url=business&lang=ru&LICENSE_KEY=&action_next=&xz=27209"
+2023/02/16 12:46:39 [error] 32#32: *69 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Unknown: Failed opening required '/var/www/bitrix/bitrixsetup.php' (include_path='.:/usr/share/php') in Unknown on line 0" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:47:00 [error] 32#32: *71 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 12:47:35 [error] 32#32: *71 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 12:48:35 [error] 32#32: *71 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 12:49:07 [error] 32#32: *71 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/index.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:50:35 [error] 32#32: *80 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 12:50:39 [error] 32#32: *80 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 13:09:42 [error] 32#32: *171 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:11:42 [error] 32#32: *173 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:11:44 [error] 32#32: *173 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:11:48 [error] 32#32: *173 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:13:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 13:13:01 [notice] 33#33: exiting
+2023/02/16 13:13:01 [notice] 31#31: gracefully shutting down
+2023/02/16 13:13:01 [notice] 31#31: exiting
+2023/02/16 13:13:01 [notice] 31#31: exit
+2023/02/16 13:13:01 [notice] 32#32: gracefully shutting down
+2023/02/16 13:13:01 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 13:13:01 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 13:13:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:13:01 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 13:13:01 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 13:13:01 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:13:02 [notice] 32#32: exiting
+2023/02/16 13:13:02 [notice] 32#32: exit
+2023/02/16 13:13:02 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 13:13:02 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 13:13:02 [notice] 1#1: exit
+2023/02/16 13:16:46 [notice] 1#1: using the "epoll" event method
+2023/02/16 13:16:46 [notice] 1#1: nginx/1.20.2
+2023/02/16 13:16:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 13:16:46 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 13:16:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 13:16:46 [notice] 1#1: start worker processes
+2023/02/16 13:16:46 [notice] 1#1: start worker process 30
+2023/02/16 13:16:46 [notice] 1#1: start worker process 31
+2023/02/16 13:16:46 [notice] 1#1: start cache manager process 32
+2023/02/16 13:16:46 [notice] 1#1: start cache loader process 33
+2023/02/16 13:17:46 [notice] 33#33: http file cache: /var/cache/nginx 0.000M, bsize: 4096
+2023/02/16 13:17:46 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 13:17:46 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/16 13:17:46 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:21:52 [error] 30#30: *7 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:34:12 [error] 30#30: *9 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:37:36 [error] 30#30: *10 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:37:39 [error] 30#30: *10 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:37:40 [error] 30#30: *10 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:37:44 [error] 30#30: *10 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:40:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 13:40:51 [notice] 32#32: exiting
+2023/02/16 13:40:51 [notice] 31#31: gracefully shutting down
+2023/02/16 13:40:51 [notice] 31#31: exiting
+2023/02/16 13:40:51 [notice] 31#31: exit
+2023/02/16 13:40:51 [notice] 30#30: gracefully shutting down
+2023/02/16 13:40:51 [notice] 30#30: exiting
+2023/02/16 13:40:51 [notice] 30#30: exit
+2023/02/16 13:40:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 13:40:51 [notice] 1#1: worker process 30 exited with code 0
+2023/02/16 13:40:51 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 13:40:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:40:51 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/16 13:40:51 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 13:40:51 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/16 13:40:51 [notice] 1#1: exit
+2023/02/16 13:42:13 [notice] 1#1: using the "epoll" event method
+2023/02/16 13:42:13 [notice] 1#1: nginx/1.20.2
+2023/02/16 13:42:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 13:42:13 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 13:42:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 13:42:13 [notice] 1#1: start worker processes
+2023/02/16 13:42:13 [notice] 1#1: start worker process 30
+2023/02/16 13:42:13 [notice] 1#1: start worker process 31
+2023/02/16 13:42:13 [notice] 1#1: start cache manager process 32
+2023/02/16 13:42:13 [notice] 1#1: start cache loader process 33
+2023/02/16 13:43:13 [notice] 33#33: http file cache: /var/cache/nginx 0.000M, bsize: 4096
+2023/02/16 13:43:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 13:43:14 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/16 13:43:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:43:18 [error] 31#31: *2 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:43:30 [error] 31#31: *9 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 13:43:41 [error] 31#31: *9 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrixsetup.php.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/bitrixsetup.php.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 13:43:54 [error] 31#31: *9 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:44:42 [error] 31#31: *9 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:49:09 [error] 31#31: *15 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:54:04 [error] 31#31: *17 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:55:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 13:55:35 [notice] 30#30: gracefully shutting down
+2023/02/16 13:55:35 [notice] 32#32: exiting
+2023/02/16 13:55:35 [notice] 30#30: exiting
+2023/02/16 13:55:35 [notice] 30#30: exit
+2023/02/16 13:55:35 [notice] 31#31: gracefully shutting down
+2023/02/16 13:55:35 [notice] 31#31: exiting
+2023/02/16 13:55:35 [notice] 31#31: exit
+2023/02/16 13:55:35 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/16 13:55:35 [notice] 1#1: worker process 30 exited with code 0
+2023/02/16 13:55:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:55:35 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 13:55:35 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 13:55:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:55:35 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 13:55:35 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/16 13:55:35 [notice] 1#1: exit
+2023/02/16 13:56:32 [notice] 1#1: using the "epoll" event method
+2023/02/16 13:56:32 [notice] 1#1: nginx/1.20.2
+2023/02/16 13:56:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 13:56:32 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 13:56:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 13:56:32 [notice] 1#1: start worker processes
+2023/02/16 13:56:32 [notice] 1#1: start worker process 31
+2023/02/16 13:56:32 [notice] 1#1: start worker process 32
+2023/02/16 13:56:32 [notice] 1#1: start cache manager process 33
+2023/02/16 13:56:32 [notice] 1#1: start cache loader process 34
+2023/02/16 13:57:06 [error] 31#31: *10 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 13:57:17 [error] 31#31: *10 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:57:32 [notice] 34#34: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 13:57:32 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/16 13:57:32 [notice] 1#1: cache loader process 34 exited with code 0
+2023/02/16 13:57:32 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:57:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 13:57:48 [notice] 33#33: exiting
+2023/02/16 13:57:48 [notice] 32#32: gracefully shutting down
+2023/02/16 13:57:48 [notice] 32#32: exiting
+2023/02/16 13:57:48 [notice] 32#32: exit
+2023/02/16 13:57:48 [notice] 31#31: gracefully shutting down
+2023/02/16 13:57:48 [notice] 31#31: exiting
+2023/02/16 13:57:48 [notice] 31#31: exit
+2023/02/16 13:57:48 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/16 13:57:48 [notice] 1#1: worker process 32 exited with code 0
+2023/02/16 13:57:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:57:48 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/16 13:57:48 [notice] 1#1: cache manager process 33 exited with code 0
+2023/02/16 13:57:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 13:57:48 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/16 13:57:48 [notice] 1#1: worker process 31 exited with code 0
+2023/02/16 13:57:48 [notice] 1#1: exit
+2023/02/16 13:58:08 [notice] 1#1: using the "epoll" event method
+2023/02/16 13:58:08 [notice] 1#1: nginx/1.20.2
+2023/02/16 13:58:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 13:58:08 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 13:58:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 13:58:08 [notice] 1#1: start worker processes
+2023/02/16 13:58:08 [notice] 1#1: start worker process 24
+2023/02/16 13:58:08 [notice] 1#1: start worker process 25
+2023/02/16 13:58:08 [notice] 1#1: start cache manager process 26
+2023/02/16 13:58:08 [notice] 1#1: start cache loader process 27
+2023/02/16 13:58:31 [error] 25#25: *3 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 13:58:40 [error] 25#25: *3 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "74.119.193.224"
+2023/02/16 13:59:08 [notice] 27#27: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 13:59:08 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/16 13:59:08 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/16 13:59:08 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 14:00:30 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 14:00:30 [notice] 24#24: gracefully shutting down
+2023/02/16 14:00:30 [notice] 24#24: exiting
+2023/02/16 14:00:30 [notice] 24#24: exit
+2023/02/16 14:00:30 [notice] 26#26: exiting
+2023/02/16 14:00:30 [notice] 25#25: gracefully shutting down
+2023/02/16 14:00:30 [notice] 25#25: exiting
+2023/02/16 14:00:30 [notice] 25#25: exit
+2023/02/16 14:00:30 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/16 14:00:30 [notice] 1#1: worker process 24 exited with code 0
+2023/02/16 14:00:30 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/16 14:00:30 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 14:00:30 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/16 14:00:30 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/16 14:00:30 [notice] 1#1: worker process 25 exited with code 0
+2023/02/16 14:00:30 [notice] 1#1: exit
+2023/02/16 14:00:40 [notice] 1#1: using the "epoll" event method
+2023/02/16 14:00:40 [notice] 1#1: nginx/1.20.2
+2023/02/16 14:00:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 14:00:40 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 14:00:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 14:00:40 [notice] 1#1: start worker processes
+2023/02/16 14:00:40 [notice] 1#1: start worker process 24
+2023/02/16 14:00:40 [notice] 1#1: start worker process 25
+2023/02/16 14:00:40 [notice] 1#1: start cache manager process 26
+2023/02/16 14:00:40 [notice] 1#1: start cache loader process 27
+2023/02/16 14:00:50 [error] 25#25: *3 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrixsetup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrixsetup.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "74.119.193.224"
+2023/02/16 14:00:57 [error] 25#25: *3 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:01:40 [notice] 27#27: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 14:01:40 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/16 14:01:40 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/16 14:01:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 14:02:06 [error] 25#25: *12 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:02:30 [error] 25#25: *12 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:03:22 [error] 25#25: *12 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:03:35 [error] 25#25: *12 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:08:21 [error] 25#25: *30 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:08:31 [error] 25#25: *30 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:08:31 [error] 25#25: *52 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/info.php (No such file or directory)" while reading response header from upstream, client: 139.59.159.130, server: _, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "74.119.193.224"
+2023/02/16 14:08:36 [error] 25#25: *30 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:09:42 [error] 25#25: *70 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:10:49 [error] 25#25: *74 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:11:58 [error] 25#25: *76 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrix/setup.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/setup.php HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "74.119.193.224"
+2023/02/16 14:25:32 [error] 25#25: *76 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:25:41 [error] 25#25: *76 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:26:11 [error] 25#25: *76 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:30:51 [error] 25#25: *156 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:30:56 [error] 25#25: *156 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:31:01 [error] 25#25: *156 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "POST /bitrix/admin/ HTTP/1.1", host: "74.119.193.224", referrer: "http://74.119.193.224/bitrix/admin/"
+2023/02/16 14:45:30 [error] 25#25: *367 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:45:35 [error] 25#25: *367 directory index of "/var/www/bitrix/bitrix/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:49:17 [error] 24#24: *414 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:52:01 [error] 25#25: *428 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:52:17 [error] 25#25: *427 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 14:58:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 14:58:51 [notice] 24#24: gracefully shutting down
+2023/02/16 14:58:51 [notice] 26#26: exiting
+2023/02/16 14:58:51 [notice] 24#24: exiting
+2023/02/16 14:58:51 [notice] 24#24: exit
+2023/02/16 14:58:51 [notice] 25#25: gracefully shutting down
+2023/02/16 14:58:51 [notice] 25#25: exiting
+2023/02/16 14:58:51 [notice] 25#25: exit
+2023/02/16 14:58:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/16 14:58:51 [notice] 1#1: worker process 24 exited with code 0
+2023/02/16 14:58:51 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/16 14:58:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 14:58:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/16 14:58:51 [notice] 1#1: worker process 25 exited with code 0
+2023/02/16 14:58:51 [notice] 1#1: exit
+2023/02/16 14:59:04 [notice] 1#1: using the "epoll" event method
+2023/02/16 14:59:04 [notice] 1#1: nginx/1.20.2
+2023/02/16 14:59:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 14:59:04 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 14:59:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 14:59:04 [notice] 1#1: start worker processes
+2023/02/16 14:59:04 [notice] 1#1: start worker process 24
+2023/02/16 14:59:04 [notice] 1#1: start worker process 25
+2023/02/16 14:59:04 [notice] 1#1: start cache manager process 26
+2023/02/16 14:59:04 [notice] 1#1: start cache loader process 27
+2023/02/16 14:59:26 [error] 25#25: *1 directory index of "/var/www/bitrix/bitrix/admin/" is forbidden, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/ HTTP/1.1", host: "74.119.193.224"
+2023/02/16 15:00:05 [notice] 27#27: http file cache: /var/cache/nginx 0.148M, bsize: 4096
+2023/02/16 15:00:05 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/16 15:00:05 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/16 15:00:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 15:04:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/16 15:04:53 [notice] 26#26: exiting
+2023/02/16 15:04:53 [notice] 24#24: gracefully shutting down
+2023/02/16 15:04:53 [notice] 24#24: exiting
+2023/02/16 15:04:53 [notice] 24#24: exit
+2023/02/16 15:04:53 [notice] 25#25: gracefully shutting down
+2023/02/16 15:04:53 [notice] 25#25: exiting
+2023/02/16 15:04:53 [notice] 25#25: exit
+2023/02/16 15:04:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/16 15:04:53 [notice] 1#1: worker process 25 exited with code 0
+2023/02/16 15:04:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 15:04:53 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/16 15:04:53 [notice] 1#1: worker process 24 exited with code 0
+2023/02/16 15:04:53 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 15:04:53 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/16 15:04:53 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/16 15:04:53 [notice] 1#1: exit
+2023/02/16 15:04:54 [notice] 1#1: using the "epoll" event method
+2023/02/16 15:04:54 [notice] 1#1: nginx/1.20.2
+2023/02/16 15:04:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/16 15:04:54 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/16 15:04:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/16 15:04:54 [notice] 1#1: start worker processes
+2023/02/16 15:04:54 [notice] 1#1: start worker process 32
+2023/02/16 15:04:54 [notice] 1#1: start worker process 33
+2023/02/16 15:04:54 [notice] 1#1: start cache manager process 34
+2023/02/16 15:04:54 [notice] 1#1: start cache loader process 35
+2023/02/16 15:05:55 [notice] 35#35: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/16 15:05:55 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/02/16 15:05:55 [notice] 1#1: cache loader process 35 exited with code 0
+2023/02/16 15:05:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/16 15:46:52 [warn] 33#33: *343 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 103.151.36.211, server: _, request: "GET /bitrix/admin/get_start_menu.php?lang=ru&back_url_pub=%2Frest-hook%2Fap%2F0&sessid=5dbb44b6f559489eba7a8aeddf81c52b HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/rest-hook/ap/0?back_url_admin=%2Frest-hook%2F"
+2023/02/16 15:47:37 [error] 33#33: *400 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/rest-hook/fileman_admin.php (No such file or directory)" while reading response header from upstream, client: 103.151.36.211, server: _, request: "GET /rest-hook/fileman_admin.php?lang=ru&path=%2F HTTP/1.1", upstream: "fastcgi://172.18.0.3:9000", host: "74.119.193.224", referrer: "http://74.119.193.224/rest-hook/?back_url_pub=%2Frest-hook%2Fap%2F0"
+2023/02/17 00:34:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/17 00:34:41 [notice] 32#32: gracefully shutting down
+2023/02/17 00:34:41 [notice] 32#32: exiting
+2023/02/17 00:34:41 [notice] 32#32: exit
+2023/02/17 00:34:41 [notice] 33#33: gracefully shutting down
+2023/02/17 00:34:41 [notice] 33#33: exiting
+2023/02/17 00:34:41 [notice] 33#33: exit
+2023/02/17 00:34:41 [notice] 34#34: exiting
+2023/02/17 00:34:41 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/17 00:34:41 [notice] 1#1: worker process 32 exited with code 0
+2023/02/17 00:34:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 00:34:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/17 00:34:41 [notice] 1#1: worker process 33 exited with code 0
+2023/02/17 00:34:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 00:34:41 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/02/17 00:34:41 [notice] 1#1: cache manager process 34 exited with code 0
+2023/02/17 00:34:41 [notice] 1#1: exit
+2023/02/17 07:49:11 [notice] 1#1: using the "epoll" event method
+2023/02/17 07:49:11 [notice] 1#1: nginx/1.20.2
+2023/02/17 07:49:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/17 07:49:11 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/17 07:49:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/17 07:49:11 [notice] 1#1: start worker processes
+2023/02/17 07:49:11 [notice] 1#1: start worker process 24
+2023/02/17 07:49:11 [notice] 1#1: start worker process 25
+2023/02/17 07:49:11 [notice] 1#1: start cache manager process 26
+2023/02/17 07:49:11 [notice] 1#1: start cache loader process 27
+2023/02/17 07:50:11 [notice] 27#27: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/17 07:50:11 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/17 07:50:11 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/17 07:50:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 07:55:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/17 07:55:52 [notice] 25#25: gracefully shutting down
+2023/02/17 07:55:52 [notice] 25#25: exiting
+2023/02/17 07:55:52 [notice] 25#25: exit
+2023/02/17 07:55:52 [notice] 24#24: gracefully shutting down
+2023/02/17 07:55:52 [notice] 26#26: exiting
+2023/02/17 07:55:52 [notice] 24#24: exiting
+2023/02/17 07:55:52 [notice] 24#24: exit
+2023/02/17 07:55:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/17 07:55:52 [notice] 1#1: worker process 25 exited with code 0
+2023/02/17 07:55:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 07:55:52 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/17 07:55:52 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/17 07:55:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 07:55:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/17 07:55:52 [notice] 1#1: worker process 24 exited with code 0
+2023/02/17 07:55:52 [notice] 1#1: exit
+2023/02/17 07:56:05 [notice] 1#1: using the "epoll" event method
+2023/02/17 07:56:05 [notice] 1#1: nginx/1.20.2
+2023/02/17 07:56:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/17 07:56:05 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/17 07:56:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/17 07:56:05 [notice] 1#1: start worker processes
+2023/02/17 07:56:05 [notice] 1#1: start worker process 24
+2023/02/17 07:56:05 [notice] 1#1: start worker process 25
+2023/02/17 07:56:05 [notice] 1#1: start cache manager process 26
+2023/02/17 07:56:05 [notice] 1#1: start cache loader process 27
+2023/02/17 07:57:05 [notice] 27#27: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/17 07:57:05 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/17 07:57:05 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/17 07:57:05 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 07:59:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/17 07:59:33 [notice] 24#24: gracefully shutting down
+2023/02/17 07:59:33 [notice] 25#25: gracefully shutting down
+2023/02/17 07:59:33 [notice] 25#25: exiting
+2023/02/17 07:59:33 [notice] 24#24: exiting
+2023/02/17 07:59:33 [notice] 24#24: exit
+2023/02/17 07:59:33 [notice] 25#25: exit
+2023/02/17 07:59:33 [notice] 26#26: exiting
+2023/02/17 07:59:33 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/17 07:59:33 [notice] 1#1: worker process 24 exited with code 0
+2023/02/17 07:59:33 [notice] 1#1: worker process 25 exited with code 0
+2023/02/17 07:59:33 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 07:59:33 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/17 07:59:33 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/17 07:59:33 [notice] 1#1: exit
+2023/02/17 07:59:35 [notice] 1#1: using the "epoll" event method
+2023/02/17 07:59:35 [notice] 1#1: nginx/1.20.2
+2023/02/17 07:59:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/17 07:59:35 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/17 07:59:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/17 07:59:35 [notice] 1#1: start worker processes
+2023/02/17 07:59:35 [notice] 1#1: start worker process 30
+2023/02/17 07:59:35 [notice] 1#1: start worker process 31
+2023/02/17 07:59:35 [notice] 1#1: start cache manager process 32
+2023/02/17 07:59:35 [notice] 1#1: start cache loader process 33
+2023/02/17 08:00:35 [notice] 33#33: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/17 08:00:35 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/02/17 08:00:35 [notice] 1#1: cache loader process 33 exited with code 0
+2023/02/17 08:00:35 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:02:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/17 08:02:52 [notice] 32#32: exiting
+2023/02/17 08:02:52 [notice] 30#30: gracefully shutting down
+2023/02/17 08:02:52 [notice] 30#30: exiting
+2023/02/17 08:02:52 [notice] 30#30: exit
+2023/02/17 08:02:52 [notice] 31#31: gracefully shutting down
+2023/02/17 08:02:52 [notice] 31#31: exiting
+2023/02/17 08:02:52 [notice] 31#31: exit
+2023/02/17 08:02:52 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/02/17 08:02:52 [notice] 1#1: worker process 30 exited with code 0
+2023/02/17 08:02:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:02:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/02/17 08:02:52 [notice] 1#1: cache manager process 32 exited with code 0
+2023/02/17 08:02:52 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:02:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/02/17 08:02:52 [notice] 1#1: worker process 31 exited with code 0
+2023/02/17 08:02:52 [notice] 1#1: exit
+2023/02/17 08:03:51 [notice] 1#1: using the "epoll" event method
+2023/02/17 08:03:51 [notice] 1#1: nginx/1.20.2
+2023/02/17 08:03:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/17 08:03:51 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/17 08:03:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/17 08:03:51 [notice] 1#1: start worker processes
+2023/02/17 08:03:51 [notice] 1#1: start worker process 24
+2023/02/17 08:03:51 [notice] 1#1: start worker process 25
+2023/02/17 08:03:51 [notice] 1#1: start cache manager process 26
+2023/02/17 08:03:51 [notice] 1#1: start cache loader process 27
+2023/02/17 08:04:51 [notice] 27#27: http file cache: /var/cache/nginx 0.008M, bsize: 4096
+2023/02/17 08:04:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/17 08:04:51 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/17 08:04:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:05:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/17 08:05:40 [notice] 25#25: gracefully shutting down
+2023/02/17 08:05:40 [notice] 25#25: exiting
+2023/02/17 08:05:40 [notice] 25#25: exit
+2023/02/17 08:05:40 [notice] 26#26: exiting
+2023/02/17 08:05:40 [notice] 24#24: gracefully shutting down
+2023/02/17 08:05:40 [notice] 24#24: exiting
+2023/02/17 08:05:40 [notice] 24#24: exit
+2023/02/17 08:05:40 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/02/17 08:05:40 [notice] 1#1: worker process 25 exited with code 0
+2023/02/17 08:05:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:05:40 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/17 08:05:40 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/17 08:05:40 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:05:40 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/17 08:05:40 [notice] 1#1: worker process 24 exited with code 0
+2023/02/17 08:05:40 [notice] 1#1: exit
+2023/02/17 08:06:36 [notice] 1#1: using the "epoll" event method
+2023/02/17 08:06:36 [notice] 1#1: nginx/1.20.2
+2023/02/17 08:06:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/17 08:06:36 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/17 08:06:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/17 08:06:36 [notice] 1#1: start worker processes
+2023/02/17 08:06:36 [notice] 1#1: start worker process 24
+2023/02/17 08:06:36 [notice] 1#1: start worker process 25
+2023/02/17 08:06:36 [notice] 1#1: start cache manager process 26
+2023/02/17 08:06:36 [notice] 1#1: start cache loader process 27
+2023/02/17 08:07:36 [notice] 27#27: http file cache: /var/cache/nginx 0.023M, bsize: 4096
+2023/02/17 08:07:36 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/02/17 08:07:36 [notice] 1#1: cache loader process 27 exited with code 0
+2023/02/17 08:07:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:16:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/02/17 08:16:10 [notice] 26#26: exiting
+2023/02/17 08:16:10 [notice] 24#24: gracefully shutting down
+2023/02/17 08:16:10 [notice] 24#24: exiting
+2023/02/17 08:16:10 [notice] 24#24: exit
+2023/02/17 08:16:10 [notice] 25#25: gracefully shutting down
+2023/02/17 08:16:10 [notice] 25#25: exiting
+2023/02/17 08:16:10 [notice] 25#25: exit
+2023/02/17 08:16:10 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/02/17 08:16:10 [notice] 1#1: worker process 24 exited with code 0
+2023/02/17 08:16:10 [notice] 1#1: signal 29 (SIGIO) received
+2023/02/17 08:16:10 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/02/17 08:16:10 [notice] 1#1: worker process 25 exited with code 0
+2023/02/17 08:16:10 [notice] 1#1: cache manager process 26 exited with code 0
+2023/02/17 08:16:10 [notice] 1#1: exit
+2023/02/17 08:16:24 [notice] 1#1: using the "epoll" event method
+2023/02/17 08:16:24 [notice] 1#1: nginx/1.20.2
+2023/02/17 08:16:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/02/17 08:16:24 [notice] 1#1: OS: Linux 5.15.0-60-generic
+2023/02/17 08:16:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/02/17 08:16:24 [notice] 1#1: start worker processes
+2023/02/17 08:16:24 [notice] 1#1: start worker process 24
+2023/02/17 08:16:24 [notice] 1#1: start worker process 25
+2023/02/17 08:16:24 [notice] 1#1: start cache manager process 26
+2023/02/17 08:16:24 [notice] 1#1: start cache loader process 27
